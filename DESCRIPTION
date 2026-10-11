@@ -1,19 +1,19 @@
 Package: sportmetrics
 Type: Package
 Title: Test Whether Advanced Sports Metrics Add Value Over Traditional Stats
-Version: 0.1.0
+Version: 0.2.0
 Authors@R: person("Rashaad", "Jones", email = "rashaadjones@gmail.com", role = c("aut", "cre"))
 Description: Three reusable diagnostic functions for testing whether an
     advanced sports metric adds real value over a traditional statistic:
     incremental predictive validity (redundancy), split-half reliability
-    (noise), and distributional discriminability (variance). Designed to
-    be run identically across baseball, football, and basketball data.
-License: MIT
+    (noise), and discriminability (how much of the spread across players is
+    true talent rather than noise). Designed to be run identically across
+    baseball, football, and basketball data.
+License: MIT + file LICENSE
 Encoding: UTF-8
-LazyData: true
-RoxygenNote: 7.3.2
 Imports:
     stats
 Suggests:
     testthat (>= 3.0.0)
 Config/testthat/edition: 3
+Config/roxygen2/version: 8.1.1
